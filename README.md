@@ -1,2 +1,1 @@
-# rat
-plik
+this is fried mane
